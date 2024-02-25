@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: click-uz-eureka-naming-server
+server:
+  port: 8741
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8741/eureka
